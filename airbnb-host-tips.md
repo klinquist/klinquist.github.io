@@ -16,7 +16,7 @@ These tips mostly apply to whole-home rentals.
 8. Only communicate with guests via the airbnb app.   If a guest texts me, I take a screen shot and paste it into the airbnb app, then reply there. 
 9.  Have friends be the first ones to stay in your airbnb.  They'll give you valuable feedback and be the first ones to review your property.   
 10. Learn how to use the 'special offer' feature (use it with one of your friends that is staying!)
-11. Learn thedifference between an inquiry and a booking request:
+11. Learn the difference between an inquiry and a booking request:
    * You don't have to accept or deny an inquiry, despite nagging from airbnb.  You *do* have to reply, to make sure your reply stats are good.  After you've replied once, you can archive the conversation.
    * You DO have to accept or deny a booking request.
 12. Understand how AirCover works (short answer: Submit proof of damage to guest, if guest does not pay, AirCover kicks in) and understand what it does NOT cover (and why you want a separate short term rental liability policy from a company like Proper).

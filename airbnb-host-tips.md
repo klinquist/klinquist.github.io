@@ -69,3 +69,10 @@ Write down what you will do in each of these situations, so if/when they do happ
 * Channel managers are services that help you manage a single property on multiple platforms or multiple properties.  Ownerrez and Guesty are popular ones.
 * Airbnb's smart pricing has been troublesome for many.  Either manually set prices or use a third party pricing tool like Pricelabs.
 * Pay a neighborhood teenager to take trash bins to/from the street if necessary.
+
+
+
+
+### Contact me
+
+You can find me as the admin of the "Airbnb Whole Home Host" Facebook group, or email airbnb@motoretreat.com.

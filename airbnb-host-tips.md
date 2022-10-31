@@ -19,6 +19,7 @@ These tips mostly apply to whole-home rentals.
 11. Learn thedifference between an inquiry and a booking request:
    * You don't have to accept or deny an inquiry, despite nagging from airbnb.  You *do* have to reply, to make sure your reply stats are good.  After you've replied once, you can archive the conversation.
    * You DO have to accept or deny a booking request.
+12. Understand how AirCover works (short answer: Submit proof of damage to guest, if guest does not pay, AirCover kicks in) and understand what it does NOT cover (and why you want a separate short term rental liability policy from a company like Proper).
 
 
 ### Smart Home

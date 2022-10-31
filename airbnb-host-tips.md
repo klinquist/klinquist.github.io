@@ -1,5 +1,3 @@
-layout: page
-title: "Kris Linquist's Airbnb Host Tips"
-permalink: /airbnb-host-tips
+### Tips from an experienced Airbnb host.
 
-### Tips from Kris
+* Learn the airbnb web site.

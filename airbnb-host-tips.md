@@ -70,7 +70,8 @@ Write down what you will do in each of these situations, so if/when they do happ
 * Channel managers are services that help you manage a single property on multiple platforms or multiple properties.  Ownerrez and Guesty are popular ones.
 * Airbnb's smart pricing has been troublesome for many.  Either manually set prices or use a third party pricing tool like Pricelabs.
 * Pay a neighborhood teenager to take trash bins to/from the street if necessary.
-* Be a part of the community.  Send Christmas cards to your airbnb's neighbors.  Purchase gift cards to local businesses and give them to guests.
+* Your neighbors won't like that you are running an airbnb.  Be honest and upfront with them prior to going live.   Let them be a part of the rules you send guests around quiet hours, occupancy, going slow on your street, etc.   They'll be more willing to contact YOU rather than the police if something goes afoul.
+* Be a part of the community. Contribute to local facebook groups / nextdoor.   Purchase gift cards to local businesses and give them to guests.
 * Don't make your guest sweat the small stuff.   Don't ask guests to pay for small damanges (<$50) that they are up-front about.
 
 

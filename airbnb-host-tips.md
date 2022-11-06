@@ -28,9 +28,10 @@ These tips mostly apply to whole-home rentals.
 1. I consider smart locks, smart thermostats, and exterior cameras a requirement for all Airbnbs.  My recommendations:
    1. Smart lock: Schalge Encode.  There are channel managers like Guesty that will auto-program these locks based on the airbnb calendar.  Note that smart locks only need internet to be programmed remotely.  Once programed, a guest will still be able to enter even if the wifi is down.
    1. Smart thermostat: Ecobee (the "premium" model includes an air quality sensor)
-   2. Cameras: Wyze v3 Pro (No monthly fee and 24/7 recording!).  These cameras require power (MicroUSB power cord, you can get very thin ones up to 25' in length, run them through the top of the garage door).  If you install a MicroSD card, they will record 24/7 for many days, allowing you to scroll back in time.   Battery powered cameras only record motion events.  There have been many situations where I need to see something on the video that did not trigger a motion event or exceeded the 'event length' for battery cameras. 
-2. Have a backup lock code AND a key in a lock box somewhere on your property as a backup to the smart lock.  
-3. Set up reasonable temperature limits on your smart thermostat.  Some guests think that turning the A/C down to 55 degrees will make it cool faster.
+   2. Cameras: Wyze v3 Pro (No monthly fee and 24/7 recording!).  These cameras require power (MicroUSB power cord, you can get very thin ones up to 25' in length, run them through the top of the garage door).  If you install a MicroSD card, they will record 24/7 for many days, allowing you to scroll back in time.   Battery powered cameras only record motion events.  There have been many situations where I need to see something on the video that did not trigger a motion event or exceeded the 'event length' for battery cameras.
+2. Make sure cameras are disclosed - including whether they are recording video and audio.  This is required.
+3. Have a backup lock code AND a key in a lock box somewhere on your property as a backup to the smart lock.  
+4. Set up reasonable temperature limits on your smart thermostat.  Some guests think that turning the A/C down to 55 degrees will make it cool faster.
 
 I have a more advanced home automation system in my airbnb that I have documented here: https://www.motoretreat.com/automation
 
@@ -42,8 +43,8 @@ Think about everything that can go wrong with your unit:
 * Insects found
 * House not clean
 * Water leak
-* Internet outage
-* Power outage
+* Internet outage (perhaps you will have different plans for different length outages)
+* Power outage  (perhaps you will have different plans for different length outages)
   
 Think about everything that could go wrong with your guests:
 * Brought a disallowed pet
@@ -70,7 +71,7 @@ Write down what you will do in each of these situations, so if/when they do happ
 * Airbnb's smart pricing has been troublesome for many.  Either manually set prices or use a third party pricing tool like Pricelabs.
 * Pay a neighborhood teenager to take trash bins to/from the street if necessary.
 * Be a part of the community.  Send Christmas cards to your airbnb's neighbors.  Purchase gift cards to local businesses and give them to guests.
-
+* Don't make your guest sweat the small stuff.   Don't ask guests to pay for small damanges (<$50) that they are up-front about.
 
 
 

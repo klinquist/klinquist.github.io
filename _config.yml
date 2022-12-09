@@ -1,7 +1,10 @@
 plugins:
   - jekyll-relative-links
+title: Kris Linquist
 relative_links:
   enabled: true
   collections: true
 include:
   - airbnb-host-tips.md
+  - waterheater.md
+

@@ -60,24 +60,21 @@ I was able to get lots of neat information: Compressor run time, kWh consumed, t
 
 Many of the key/values I didn't understand, so I did what I usually do: Search github!
 
-
 Doing that, I found something even more alarming:  A public repository that appeared to be all of their Python QA test automation scripts.   This included READMEs, test accounts, and *the password for admin@rheem.com*.   
 
 This can't be a user in their production environment, can it? 
 
 Yes, it can. I successfully logged into their app.
 
-
 A week goes by, and I notice that I can no longer subscribe to `#`.  Ok, someone investigated after I sent the LinkedIn messages and closed that hole.
 
-So I went back to ClearBlade documentation, and found they have another "trigger" topic that gets published to for "user:login", "device:create", etc.
+So I went back to ClearBlade documentation, and found they have another "trigger" topic that gets published to for "user:login", "device:create", etc.  The payloads contained email addresses and device serial numbers.
 
-What do you know, any user still has access to subscribe to `$trigger/#` and receive all of that information.
+As it turns out, any user still has access to subscribe to `$trigger/#` and receive all of that information.
 
+Almost 2 weeks had passed since I received the "we'll look into it" reply, so I replied again saying that I'd really like to talk, and this time I attached a list of emails who had launched the app in the past 10 minutes.
 
-Almost 2 weeks had passed since I received the "we'll look into it" reply,so I replied again saying that I'd really like to talk, and this time I attached a list of emails who had launched the app in the past 10 minutes.
-
-That got their attention.. within hours, I lost access to `$trigger/#`.  We scheduled a call.
+That got their attention, and we scheduled a call.  Within hours, I lost access to `$trigger/#`. 
 
 In the meantime, I grabbed a bearer token for the admin@rheem account to see if it had any additional MQTT permissions.
 
@@ -85,12 +82,10 @@ Oh yeah.  It did.
 
 I could publish or subscribe to any topic.  That means I could publish payloads to `/desired`, changing the settings on anyone's water heater or thermostat.  I really should have just renamed everyone's devices to **pwned.**
 
-
-Today, I had a call with Rheem, and talked about how I discovered what I did and gave them several recommendations. I told them I didn't want anything in return.  I did request that they grant a user access to their own device's `/reported` topic, for nerdy data-gatherers like myself.
-
+Today, I had a call with Rheem, and talked about how I discovered what I did and gave them several recommendations. Rheem does not offer a bug bounty, and my only request was for them to grant a user access to their own device's `/reported` topic, for nerdy data-gatherers like myself.  We'll see if that happens.
 
 
-Obviously, that admin account password was changed by Rheem shortly after I got off the call with them. JWTs have been revoked, but for now, my MQTT connection capturing my water heater stream is still open.  
+Obviously, that admin account password was changed by Rheem shortly after I got off the call with them. JWTs have been revoked.  For now, however, my MQTT connection capturing my water heater stream is still open.
 
 
 

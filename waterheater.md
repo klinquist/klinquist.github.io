@@ -9,7 +9,7 @@ I [took over a non-maintained Hubitat Rheem integration](https://github.com/klin
 
 Rheem uses the [ClearBlade](https://www.clearblande.com) platform and have both an HTTP and an MQTT API.   I was able to use CharlesProxy on my iPhone to man-in-the-middle the HTTP API to understand how to get a bearer token (a JWT) as well as capture the webhooks the phone sends when you enter/leave a geofence to put your devices in away mode.
 
-ClearBlade documentation told me about user and device topics.   With my bearer token, I was able to publish to publish to topics `user/{userId}/desired` (desired state - where requests are made) and subscribe to `user/{userId}/reported` (reported state - where acknowledgements happen).  I was already familiar with this concept as I have extensive experience with AWS IoT Core, which uses similar nomenclature. 
+ClearBlade documentation told me about user and device topics.   With my bearer token, I was able to publish to the topic `user/{userId}/desired` (desired state - where requests are made) and subscribe to the topic `user/{userId}/reported` (reported state - where acknowledgements happen).  I was already familiar with this concept as I have extensive experience with AWS IoT Core, which uses similar nomenclature. 
 
 I tried subscribing to `#` (MQTT wildcard)...and immediately got a flood of data that included:
 
@@ -20,7 +20,7 @@ I tried subscribing to `#` (MQTT wildcard)...and immediately got a flood of data
 
 I received an email from their compliance department that they would look into it and get back to me.
 
-In the mean time, I wrote a little service that opened up a subscription to `#` and filtered on my device information, which is published to the topic `device/{mac_address}/{serial_number}/{model_id}/reported` 
+In the mean time, I wrote a little service that opened up a subscription to `#` and filtered on my device information, which is published to the topic `device/{mac_address}/{serial_number}/{model_id}/reported`  (I did not have permissions to subscribe directly to my device topic).
 
 ### I actually hit my Comcast data cap because the MQTT stream was ~130GB/day worth of data.
 
@@ -77,7 +77,7 @@ What do you know, any user still has access to subscribe to `$trigger/#` and rec
 
 Almost 2 weeks had passed since I received the "we'll look into it" reply,so I replied again saying that I'd really like to talk, and this time I attached a list of emails who had launched the app in the past 10 minutes.
 
-That got their attention within hours, I lost access to `$trigger/#` and we also scheduled a call.
+That got their attention.. within hours, I lost access to `$trigger/#`.  We scheduled a call.
 
 In the meantime, I grabbed a bearer token for the admin@rheem account to see if it had any additional MQTT permissions.
 
@@ -86,7 +86,7 @@ Oh yeah.  It did.
 I could publish or subscribe to any topic.  That means I could publish payloads to `/desired`, changing the settings on anyone's water heater or thermostat.  I really should have just renamed everyone's devices to **pwned.**
 
 
-Today, I had a call with Rheem, and talked about how I discovered what I did and gave them several recommendations. I told them that I didn't want anything in return.  I did request that they grant a user access to their own device's `/reported` topic, for nerdy data-gatherers like myself.
+Today, I had a call with Rheem, and talked about how I discovered what I did and gave them several recommendations. I told them I didn't want anything in return.  I did request that they grant a user access to their own device's `/reported` topic, for nerdy data-gatherers like myself.
 
 
 

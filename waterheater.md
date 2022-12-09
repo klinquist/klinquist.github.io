@@ -95,3 +95,8 @@ Obviously, that admin account password was changed by Rheem shortly after I got 
 
 
 I wonder how much of the Rheem API github copilot will autocomplete :).
+
+
+---
+
+Want to talk about home automation/IoT?  You can email me @ [kris@linquist.net](mailto:kris@linquist.net) and my linkedin is [here](https://www.linkedin.com/in/linquist).
